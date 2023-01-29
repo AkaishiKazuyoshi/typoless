@@ -1,0 +1,86 @@
+.raid-battle-image-container {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
+
+.raid-enemy-image-container{
+  margin-left: 10%;
+  width: 80%;
+  text-align: center;
+}
+raid-enemy-name-container{
+  text-align: center;
+}
+.raid-enemy-name{
+  font-size: 20px;
+}
+
+.raid-attack-image-container {
+  display: flex;
+  justify-content: center;
+}
+.raid-battle-damage-log-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50%;
+  width: 35%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: right;
+}
+
+.raid-battle-damage-log-line-conteiner{
+  margin-bottom: 3px;
+}
+
+.raid-battle-damage-log-line{
+  display: inline-block;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+}
+
+.raid-panchi-image {
+  transform: rotate(270deg);
+  opacity: 0;
+  min-width: 100px;
+  width: 30%;
+}
+
+.raid-flappe-image {
+  opacity: 0;
+  min-width: 100px;
+  width: 30%;
+}
+
+/* 点滅 */
+.blinking {
+  animation: blink 0.1s ease-in-out infinite alternate;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  } 
+}
+
+
+/* 点滅 */
+.attack-blinking {
+  animation: blink 0.3s ease-in-out infinite alternate;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

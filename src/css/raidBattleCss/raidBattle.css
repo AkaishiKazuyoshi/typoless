@@ -1,0 +1,99 @@
+/* .App {
+  text-align: center;
+}
+
+.unSpotLetter {
+  color: darkgrey;
+  font-size: 200%;
+}
+
+.typingContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 30%;
+  position: absolute;
+  left: 10%;
+  bottom: 5%;
+  overflow: scroll;
+}
+
+.wordPTags {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.sentencePTags {
+  display: flex;
+  width: 100%;
+  height: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.spotLetter {
+  color: black;
+} */
+
+.raid-enemyHp-var {
+  background-color: rgb(230, 233, 244) !important;
+  width: 70%;
+  height: 25px !important;
+  text-align: center ;
+}
+
+.raid-my-hp-container {
+  display: flex;
+  position: absolute;
+  top: 78%;
+  left: 8%;
+  width: 50%;
+  min-width: 450px;
+  height: 30px;
+  margin: 0 20% 0 20%;
+}
+
+.raid-myHp-var {
+  position: absolute;
+  background-color: rgb(230, 233, 244) !important;
+  width: 80%;
+  height: 100% !important;
+}
+
+.raid-my-image {
+  height: 100%;
+  margin: 0 1%;
+}
+
+.raid-hp-var {
+display:flex;
+justify-content:space-around;
+}
+
+/* .indent {
+  min-width: 5px;
+}
+
+.sentensSpan {
+  min-width: 5px;
+  font-size: 115%;
+}
+
+.sentenceTypingContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 20%;
+  bottom: 5%;
+  overflow: scroll;
+}
+
+.correctLetter {
+  color: red;
+} */

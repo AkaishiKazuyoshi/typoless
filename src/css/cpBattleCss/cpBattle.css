@@ -1,0 +1,141 @@
+.cpBattleBackGround {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.85) !important;
+  background-image: url("../../../public/images/Office.png");
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.raidBackGround {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.85) !important;
+  background-image: url("../../../public/images/Office.png");
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.unSpotLetter {
+  /* width: 10px; */
+  min-width: 5px;
+  color: darkgrey;
+  font-size: 200%;
+}
+
+.typingContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 30%;
+  position: absolute;
+  left: 10%;
+  top: 65%;
+  overflow: scroll;
+  min-width: 720px;
+}
+
+.raid-typingContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: auto;
+  position: absolute;
+  left: 10%;
+  top: 81%;
+  overflow: scroll;
+  min-width: 720px;
+  max-height: 24%;
+}
+
+.wordPTags {
+  /* display: flex; */
+  /* width: 100%; */
+  /* height: 20px; */
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.sentencePTags {
+  display: flex;
+  width: 100%;
+  height: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.spotLetter {
+  color: black;
+  text-decoration: underline;
+}
+
+.cpBattleEnemyHp-var {
+  background-color: rgb(230, 233, 244) !important;
+  width: 45%;
+  height: 25px !important;
+  text-align: center ;
+  transform: scaleX(-1);
+}
+
+
+.cpBattleMyHp-var {
+  background-color: rgb(230, 233, 244) !important;
+  width: 45%;
+  height: 25px !important;
+  text-align: center ;
+}
+
+
+.hp-var {
+display:flex;
+justify-content:space-around;
+align-items: center;
+}
+
+.indent {
+  min-width: 5px;
+}
+
+.sentensSpan {
+  min-width: 5px;
+  font-size: 150%;
+}
+
+.sentenceTypingContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  position: absolute;
+  margin-left: 20%;
+  left: 15%;
+  top: 65%;
+  /* max-width: 500px; */
+  overflow: visible;
+}
+
+.correctLetter {
+  color: red;
+}
+
+.myName {
+  position: absolute;
+  left: 5px;
+  top: 60px;
+}
+
+.enemyName {
+  position: absolute;
+  right: 5px;
+  top: 60px;
+}
+
+
+
+/* html, body {
+  height: 70% !important;
+} */

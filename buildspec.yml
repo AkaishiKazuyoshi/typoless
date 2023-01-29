@@ -1,0 +1,27 @@
+version: 0.2
+
+phases:
+  install:
+    # run-as: root
+    commands:
+      - npm install --production
+  build:
+    # run-as: root
+    commands:
+      - echo Build started on `date` akaishiwassyoi
+      - npm run build
+      # - ls -l
+      # - npm run migrate
+      # - npm run seed1
+      # - npm run seed2
+      # - rm -rf node_modules/
+artifacts:
+  files:
+    - 'build/**/*'
+    - 'db/**/*'
+    - 'scripts/**/*'
+    - 'package.json'
+    - 'server.js'
+    - 'knex.js'
+    - 'knexfile.js'
+    - 'appspec.yml'

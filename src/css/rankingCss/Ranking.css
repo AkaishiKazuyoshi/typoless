@@ -1,0 +1,143 @@
+/* .rankingHeader {
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  background-color: lightgray;
+  z-index: 100;
+  align-items: center;
+} */
+
+.rannkingBackGround {
+  width: 100%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.85) !important;
+  background-image: url("../../../public/images/Office.png");
+  /* background-size: cover; */
+  background-repeat: repeat-y;
+  background-blend-mode: overlay;
+}
+
+.title {
+  text-align: left;
+  vertical-align: middle;
+  white-space: pre;
+  /* margin-top: 8px; */
+  margin-left: 10px;
+}
+
+.rankingClose {
+  position: absolute;
+  right: 3%;
+  height: 30px;
+  /* text-align: right; */
+  white-space: pre;
+  float: right;
+  /* display: flex; */
+  /* margin-top: 20px; */
+  margin-right: 20px;
+  background-color: #6f6f6f;
+  border: solid 2px #a7a7a7;
+  border-right: solid 2px #5a5b5b;
+  border-bottom: solid 2px #5a5b5b;
+  box-shadow: 0px 0px 0px 2px #0a0a0a;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.items {
+  position: fixed;
+  top: 62px;
+  left: 0px;
+  right: 0px;
+  background-color: white;
+  margin-top: 0px;
+  min-width: 900px;
+  z-index: 110;
+}
+
+.ranking {
+  /* margin-top: 0px; */
+  vertical-align: middle;
+  position: relative;
+  /* margin: 0 auto; */
+
+  /*background: yellow;*/
+}
+
+.block {
+  border: 2px solid;
+  vertical-align: middle;
+  margin: 8px 8px 8px 8px;
+  flex-flow: row;
+  display: flex;
+  /*background: green;*/
+}
+
+.number {
+  /*border: 2px solid;*/
+  /*top: 50%;*/
+  transform: translateY(30%);
+  font-size: larger;
+  text-align: center;
+  vertical-align: middle;
+  width: 15%;
+  height: 40px;
+  display: inline;
+  /*background: blue;*/
+}
+
+.img {
+  /*border: 2px solid;*/
+  width: 4%;
+  height: auto;
+  display: inline;
+  border-radius: 50%;
+  /*background: red;*/
+}
+
+.name {
+  /*border: 2px solid;*/
+  transform: translateY(30%);
+  font-size: larger;
+  text-align: center;
+  width: 40%;
+  height: 40px;
+  display: inline;
+  /*position:absolute;*/
+  /*background: skyblue;*/
+}
+
+.score {
+  /*border: 2px solid;*/
+  transform: translateY(30%);
+  font-size: larger;
+  text-align: center;
+  width: 31%;
+  height: 40px;
+  display: inline;
+  /*background: red;*/
+}
+
+.period-container {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  display: flex;
+  flex-flow: column;
+}
+
+.period {
+  width: 130px;
+  height: 15px;
+  /*background: red;*/
+}
+
+.date {
+  width: 130px;
+  height: 15px;
+  /*background: red;*/
+}
+
